@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agility", "Agility\Agility.csproj", "{44DB47A5-09B8-4FB3-A811-0AC801CE70A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44DB47A5-09B8-4FB3-A811-0AC801CE70A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44DB47A5-09B8-4FB3-A811-0AC801CE70A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44DB47A5-09B8-4FB3-A811-0AC801CE70A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44DB47A5-09B8-4FB3-A811-0AC801CE70A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1374901-FD8C-490C-B68C-D2B6ADD151BC}
+	EndGlobalSection
+EndGlobal

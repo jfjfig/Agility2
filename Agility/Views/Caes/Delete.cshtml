@@ -1,0 +1,104 @@
+﻿@model Agility.Models.Caes
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Caes</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NomeOficial)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NomeOficial)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Raca)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Raca)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Sexo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sexo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataNascimento)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataNascimento)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Grau)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Grau)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Size)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Size)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NumeroCaderneta)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NumeroCaderneta)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataLicenca)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataLicenca)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NumeroRegisto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NumeroRegisto)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

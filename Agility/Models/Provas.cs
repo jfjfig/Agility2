@@ -20,6 +20,8 @@ namespace Agility.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { get; set; }
 
+        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
+        [DataType(DataType.Date)]
         public DateTime DataProva { get; set; }
 
         [Required]
@@ -39,8 +41,8 @@ namespace Agility.Models
         public virtual ICollection<Inscricoes> Participantes { get; set; }
         public virtual ICollection<Mangas> Mangas { get; set; }
 
-        [ForeignKey("Escola")]
         [Required]
+        [ForeignKey("Escola")]
         public int EscolaFK { get; set; }
         public virtual Escolas Escola { get; set; }
     }

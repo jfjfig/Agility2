@@ -1,0 +1,50 @@
+﻿@model Agility.Models.Provas
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Provas</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Escola.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Escola.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataProva)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataProva)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tipo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tipo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Local)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Local)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

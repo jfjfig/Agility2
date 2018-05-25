@@ -164,7 +164,10 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\CaesController.cs" />
+    <Compile Include="Controllers\CondutoresController.cs" />
+    <Compile Include="Controllers\EscolasController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProvasController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -281,6 +284,21 @@
     <Content Include="Scripts\popper.js.map" />
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
+    <Content Include="Views\Condutores\Create.cshtml" />
+    <Content Include="Views\Condutores\Delete.cshtml" />
+    <Content Include="Views\Condutores\Details.cshtml" />
+    <Content Include="Views\Condutores\Edit.cshtml" />
+    <Content Include="Views\Condutores\Index.cshtml" />
+    <Content Include="Views\Escolas\Create.cshtml" />
+    <Content Include="Views\Escolas\Delete.cshtml" />
+    <Content Include="Views\Escolas\Details.cshtml" />
+    <Content Include="Views\Escolas\Edit.cshtml" />
+    <Content Include="Views\Escolas\Index.cshtml" />
+    <Content Include="Views\Provas\Create.cshtml" />
+    <Content Include="Views\Provas\Delete.cshtml" />
+    <Content Include="Views\Provas\Details.cshtml" />
+    <Content Include="Views\Provas\Edit.cshtml" />
+    <Content Include="Views\Provas\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
